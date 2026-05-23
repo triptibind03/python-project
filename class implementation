@@ -1,0 +1,18 @@
+
+from turtle import color
+
+
+class car:
+    def __init__(self, brand, color):
+        self.brand = brand 
+        self.color = color
+
+    def show_details(self):
+        print("brand:", self.brand)
+        print("color:", self.color)
+
+my_car1= car("Mercedes", "black")
+my_car2= car("ferrari", "red")
+
+my_car1.show_details()
+my_car2.show_details()
